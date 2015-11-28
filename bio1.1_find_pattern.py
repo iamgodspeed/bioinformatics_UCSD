@@ -14,7 +14,7 @@ print(cnt)
 
 # most common 3-mer
 s='CGCCTAAATAGCCTCGCGGAGCCTTATGTCATACTCGTCCT'
-length=len(s)-3+1
+length = len(s)-3+1
 l=list()
 for i in range(length):
     l.append(s[i:i+3])
